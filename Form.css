@@ -1,0 +1,22 @@
+body {
+  background-color: #fce4ec;
+  font-family: arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+h2 {
+  text-align: center;
+}
+
+label{
+    display: inline-block;
+    width: 130px;
+    margin-bottom: 15px;
+}
+
+input[placeholder="First Name"],
+input[placeholder="Last Name"] {
+    width: 140px;
+}
