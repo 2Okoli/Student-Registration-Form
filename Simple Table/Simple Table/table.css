@@ -1,0 +1,17 @@
+h1{
+    font-style: italic;
+    color: purple;
+    background-color: wheat;
+}
+body{
+    background-color: lightgrey;
+    font-style: italic;
+}
+td{
+    background-color: lightgrey;
+    color: black;
+}
+th{
+    background: local;
+
+}
