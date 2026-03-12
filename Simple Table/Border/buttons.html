@@ -3,12 +3,23 @@
     background-color: rgba(200, 00, 22, 0.849);
     color: white;
     border: none;
-    height: 34px;
-    width: 105;
+    height: 36px;
+    width: 105px;
     border-radius: 2px;
     cursor: pointer;
     margin-right: 8px;
+    transition: opacity 0.15s;
   }
+  
+  .Subscribe-button:hover{
+    opacity: 0.8;
+  }
+
+  .Subscribe-button:active{
+    opacity: 0.3;
+  }
+
+      
 
   .Join-button {
     background-color: white;
@@ -16,22 +27,68 @@
     border-color: rgb(61, 135, 196);
     border-style: solid;
     border-width: 1px;
-    height: 34px;
+    height: 36px;
     width: 62px;
     border-radius: 2px;
     cursor: pointer;
+    transition: background-color 0.15s, 
+    color 0.15s;
+  }
+
+  .Join-button:hover{
+    background-color:rgb(61, 135, 196);
+    color: white
+  }
+
+  .Join-button:active {
+    opacity: 0.2;
   }
 
   .Tweet-button {
-    background-color: rgba(63, 207, 226, 0.918);
+    background-color: rgb(2, 156, 255);
+    color: white;
     height: 36px;
-    width: 70px;
+    width: 74px;
     border-radius: 18px;
-    font-style: bold;
+    font-weight:bold ;
     border: none;
+    margin-left: 8px;
+    cursor: pbointer;
+    transition: 0.15s;
   }
+
+  .Tweet-button:hover {
+    box-shadow:5px 5px 10px rgba(0, 0, 0, 0.15);
+  }
+
+  .Request-button{
+    background-color: black;
+    color: white;
+    padding: 11.5px;
+    height: 40px;
+    width: 200px;
+    align-items: center;
+    margin-left: 8px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: 0.15;
+  }
+
+  .Request-button:hover {
+    background-color: black;
+    opacity: 0.7;
+  }
+
+  .Request-button:active {
+    opacity: 0.3;
+  }
+
+
+
+  
 </style>
 
 <button class="Subscribe-button">Subscribe</button>
 <button class="Join-button">Join</button>
 <button class="Tweet-button">Tweet</button>
+<butoon class="Request-button">Request now</butoon>
